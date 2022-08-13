@@ -1,0 +1,46 @@
+.navbar {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #beffff;
+    height: 100px;
+}
+
+.navbar-text {
+    margin-left: 30px;
+}
+
+.navbar-text:hover {
+    color: #ff8da0;
+}
+
+.navbar-link {
+    margin-right: 30px;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-link a:hover {
+    color: #ff8da0;
+}
+
+@media only screen and (max-width:600px) {
+    .navbar-text {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-link {
+        margin-right: 0px;
+    }
+}
